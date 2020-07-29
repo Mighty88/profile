@@ -1,0 +1,166 @@
+/*@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700");*/
+/*@import url("https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet");*/
+/*<link href=*/
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,700;1,600&display=swap');
+
+body {
+  background: #cae9ff;
+  color: rgb(8, 21, 71);
+  font-family: 'Crimson Text', serif;
+  /*font-style: italic;*/
+  font-size: 17px;
+  font-weight: lighter;
+}
+h1, h2, h3 {
+  font-family: 'Crimson Text', serif;
+}
+h1 {
+  color: rgb(92, 31, 115);
+  font-size: 40px;
+  font-weight: 400;
+}
+h2 {
+  color: rgb(201, 34, 96);
+  font-size: 20px;
+  font-weight: lighter;
+  font-weight: 500;
+}
+a {
+  font-family: 'Crimson Text', serif;
+  text-decoration: none;
+  color: rgb(92, 31, 115);
+  font-weight: 300;
+  font-size: 24px;
+}
+a:hover {
+  color: #ff1654;
+}
+
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+@media (max-width: 960px) {
+   /*For a screen < 960px, this CSS will be read*/
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+   /*For a screen < 720px, this CSS will be read*/
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+   /*For a screen < 540px, this CSS will be read*/
+  .container {
+    width: 300px;
+  }
+}
+
+
+.card-almostwhite {
+  background-color: #edf6f9;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 40px;
+  margin: 20px 0px;
+  text-align: center;
+}
+.img-circle {
+  border-radius: 50%;
+}
+.btn-blue {
+  background-color: #6B72E1;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 4px;
+}
+.btn-blue:hover {
+  background-color: #ff1654;
+  color: white;
+}
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 10px;
+}
+.list-inline i {
+  font-size: 50px;
+  color: #6B72E1;
+}
+.list-inline i:hover {
+  color: #ff1654;
+}
+
+/* Design adjustments using id (1% design remaining) */
+#introduction p {
+  margin-bottom: 40px;
+}
+
+#second_box {
+  padding: 20px;
+}
+
+/*#c8e7ff*/
+
+/*ul {
+  list-style-type: none;
+}*/
+
+/*div {
+  background-color: white;
+  width: 480px;
+  margin: 24px auto;
+  padding: 24px;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+ul > li > a {
+  font-size: 48px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+ul > li > a:hover {
+  color: rgba(0, 0, 0, 0.2);
+}
+*/
+/*ul > li {
+  display: inline;
+  margin: 0 8px;
+}
+
+ul {
+  padding: 0;
+}
+
+.btn-blue {
+  background-color: rgba(99, 109, 225, 1.00);
+  padding: 12px 24px;
+  border-radius: 8px;
+  color: white;
+}
+
+.btn-blue:hover {
+  background-color: black;
+}
+
+.avatar-round {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;*/
+  /*border: 1px solid rgba(0, 0, 0, 0.1);
+}
+*/
+/* NOTE */
+
+/* margin: 10px; (all sides) */
+/* margin: 10px 20px; (top-bottom, right-left) */
+/* margin: 10px 20px 30px 40px; (top, right, bottom, left)
